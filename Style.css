@@ -1,0 +1,139 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+}
+button {
+    font-family: "Lato", sans-serif;
+}
+h1 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.bg-gray-900 {
+    background-color: #121826;
+}
+.text-white {
+    color: white;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.item-center {
+    align-items: center;
+}
+.m-8 {
+    margin: 8px !important;
+}
+.p-8 {
+    padding: 8px !important;
+}
+.py-18 {
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+}
+.px-12 {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+.py-8 {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+.px-16 {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+.py-12 {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+.px-28 {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+}
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.no-underline {
+    text-decoration: none;
+}
+.bg-brand-teal {
+    background-color: #539D98;
+}
+.border-none {
+    border: none;
+}
+.rounded-full {
+    border-radius: 9999px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.font-sm {
+    font-size: 14px;
+}
+.relative {
+    position: relative;
+}
+.z-10 {
+    z-index: 10;
+}
+.object-cover {
+    object-fit: cover;
+}
+.text-brand-teal {
+    color: #90CAC7;
+}
+.text-brand-teal-dark {
+    color: #539D98;
+}
+.bg-white {
+    background-color: white;
+}
+.absolute {
+    position: absolute;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.max-w-lg {
+    max-width: 1200px !important;
+}
+.text-36px {
+    font-size: 36px;
+}
+.text-16px {
+    font-size: 16px;
+}
+.h-385px {
+    height: 385px;
+}
+/* sm screen size */
+@media (min-width: 640px) {
+    .sm\:text-60px {
+        font-size: 60px;
+    }
+    .sm\:text-20px {
+        font-size: 20px;
+    }
+}
+/* md screen size */
+@media (min-width: 768px) {
+    .md\:h-689 {
+        height: 700px !important;
+    }
+}
+#toggle:checked ~ #sidebar{
+    left: 0 !important;
+}

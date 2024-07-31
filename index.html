@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 overflow-auto">
+    <input type="checkbox" id="toggle" class="hidden">
+
+    <div class="bg-gray-900 text-white fixed backdrop-blur-2xl h-screen md:w-1/2 w-[70%] md:hidden !z-50 left-[-100%] py-24 transition-all duration-300 ease-in-out delay-150" id="sidebar">
+    <div class=" relative">
+    <div class="flex flex-col justify-center item-center ">
+        <img src="./logo.svg" alt="">
+        <nav class="flex flex-col pt-14">
+            <a href="" class="py-8 px-16 no-underline ">Pricing</a>
+            <a href="" class="py-8 px-16 no-underline">Courses</a>
+            <a href="" class="py-8 px-16 no-underline">Blog</a>
+            <a href="" class="py-8 px-16 no-underline">Forum</a>
+        </nav>
+    </div>
+    <div class="items-center flex justify-center absolute w-full pt-24">
+    <a href="" class="block py-8 px-16 no-underline" style="margin-right: 12px;">Login</a>
+        <button class="bg-brand-teal text-white border-none rounded-full py-12 px-28 font-bold uppercase font-sm">Sign Up</button>
+    </div>
+    </div>
+    </div>
+</div>
+    <header class="flex justify-between py-18 relative z-20 item-center mx-auto px-6 max-w-lg">
+        <div class="flex justify-center item-center">
+            <img src="./logo.svg" alt="" class="" style="margin-right: 50px;">
+            <nav class="hidden md:block divide-y-3">
+                <a href="" class="text-white py-8 px-16 no-underline ">Pricing</a>
+                <a href="" class="text-white py-8 px-16 no-underline">Courses</a>
+                <a href="" class="text-white py-8 px-16 no-underline">Blog</a>
+                <a href="" class="text-white py-8 px-16 no-underline">Forum</a>
+            </nav>
+        </div>
+        <div class="items-center hidden md:flex">
+            <a href="" class="text-white block py-8 px-16 no-underline" style="margin-right: 12px;">Login</a>
+            <button class="bg-brand-teal text-white border-none rounded-full py-12 px-28 font-bold uppercase font-sm">Sign Up</button>
+        </div>
+       <label for="toggle" class="cursor-pointer md:hidden block">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-white size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </label>
+    </header>
+    <section class="relative">
+        <div style="top: -80px;" class="absolute h-[450px] md:h-[700px] overflow-hidden w-full">
+            <div class="absolute max-md:bg-black/50 inset-0 z-10 md:hidden"></div>
+            <video loop="loop" autoplay="autoplay" playsinline="" muted="muted" class="w-full h-full object-cover absolute md:h-689 h-285px" src="/vid/galaxy.mp4"></video>
+        </div>
+        <div style="max-width: 1200px;" class="mx-auto md:pt-32 px-6">
+            <div class="relative z-10 max-md:text-center max-md:!w-full md:max-w-[538px]">
+                <h1 class="text-white text-36px sm:text-60px font-bold leading-none">Turbocharge your <span class="text-brand-teal">development career</span></h1>
+                <p class="text-white max-md:text-center max-md:!w-full  md:max-w-[449px] text-16px sm:text-20px" style=" margin-top: 30px;">Chris Courses provides students and professionals a college-level web development education.</p>
+                <button class="bg-white text-brand-teal-dark border-none py-4 px-28 w-full md:w-auto" style="margin-top: 28px; border-radius: 4px;">Get started</button>
+            </div>
+        </div>
+    </section>
+    <section class="mt-20 relative md:h-[300px] h-auto mx-auto flex z-20 justify-center max-w-[1200px] !py-6">
+        <div class="bg-gray-800 text-center absolute md:top-[55px] top-[-50px] rounded-md w-[95%] md:w-[85%] grid grid-cols-1 md:grid-cols-3 divide-y-2 md:divide-x-2 md:divide-y-0 divide-gray-700">
+            <div class="py-6">
+                <h2 class="text-[#7575D7] text-5xl font-semibold">84</h2>
+                <p class="text-[#D2D5DA] text-lg">Lessons</p>
+            </div>
+            <div class="py-6">
+                <h2 class="text-[#7575D7] text-5xl font-semibold">29</h2>
+                <p class="text-[#D2D5DA] text-lg">Hours of Content</p>
+            </div>
+            <div class="py-6">
+                <h2 class="text-[#7575D7] text-5xl font-semibold">5059</h2>
+                <p class="text-[#D2D5DA] text-lg">Students</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
